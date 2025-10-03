@@ -51,7 +51,7 @@ pip install selenium google-generativeai
 Run the script from the terminal:
 
 ```bash
-python quiz_solver.py <username> <password> <quiz_base_url> <total_questions>
+python automate.py <username> <password> <quiz_base_url> <total_questions>
 ```
 
 * `username` — Your Moodle username
@@ -67,7 +67,7 @@ https://lms2.ai.saveetha.in/mod/quiz/review.php?attempt=0&cmid=0&page={}
 Example:
 
 ```bash
-python quiz_solver.py 22001234 iamnigga "https://lms2.ai.saveetha.in/mod/quiz/review.php?attempt=0&cmid=0&page={}" 10
+python automate.py 22001234 iamnigga "https://lms2.ai.saveetha.in/mod/quiz/review.php?attempt=0&cmid=0&page={}" 10
 ```
 
 ---
